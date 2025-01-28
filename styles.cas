@@ -7,3 +7,15 @@ body {
     height: 100vh; /* Sets the height to 100% of the viewport */
     background-color: #f0f0f0;
 }
+@font-face {
+    font-family: 'Tw Cen MT Condensed Font';
+    src: url('fonts/Tw-Cen-MT-Condensed-Font.ttf') format('ttf'), /* Modern browsers */
+         url('fonts/Tw-Cen-MT-Condensed-Font.ttf') format('ttf');    /* Older browsers */
+    font-weight: normal;
+    font-style: normal;
+}
+header h1 {
+    font-family: 'TW Cen MT Condensed Font', sans-serif; /* Use the custom font */
+    font-size: 24px;
+    color: #333;
+}
