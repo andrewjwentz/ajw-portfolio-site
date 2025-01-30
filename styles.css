@@ -5,12 +5,12 @@ body {
     height: 100vh; /* Ensures full viewport height */
 }
 @font-face {
-    font-family: 'Tw-Cen-MT-Condensed-Font'; /* Custom name for your font */
-    src: url('fonts/Tw-Cen-MT-Condensed-Font.ttf') format('ttf'), /* Preferred format */
-         url('fonts/Tw-Cen-MT-Condensed-Font.ttf') format('ttf'); /* Fallback format */
+    font-family: 'BoogieSniggles-Regular.ttf'; /* Custom name for your font */
+    src: url('fonts/BoogieSniggles-Regular.ttf') format('ttf'), /* Preferred format */
+         url('fonts/BoogieSniggles-Regular.ttf') format('ttf'); /* Fallback format */
     font-weight: normal;
     font-style: normal;
 }
 h1, h2, h3, p {
-    font-family: 'Tw-Cen-MT-Condensed-Font', sans-serif; /* Use the custom font with a fallback */
+    font-family: 'BoogieSniggles-Regular', sans-serif; /* Use the custom font with a fallback */
 }
