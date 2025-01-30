@@ -11,7 +11,7 @@ body {
     font-style: normal;
 }
 h1, h2, h3 {
-    font-family: 'BoogieSniggles-Regular'; /* Use the custom font with a fallback */
+    font-family: 'BoogieSniggles'; /* Use the custom font with a fallback */
 }
 p {
     font-family: helvetica-neue;
