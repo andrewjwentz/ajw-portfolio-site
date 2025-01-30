@@ -6,7 +6,7 @@ body {
 }
 @font-face {
     font-family: 'Boogie Sniggles'; /* Custom name for your font */
-    src: url('fonts/BoogieSniggles-Regular.ttf') format('truetype'), /* Preferred format */
+    src: url('fonts/BoogieSniggles-Regular.woff') format('woff'), /* Preferred format */
     font-weight: normal;
     font-style: normal;
 }
