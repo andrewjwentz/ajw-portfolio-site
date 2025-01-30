@@ -4,6 +4,7 @@ body {
     margin: 0 !important; /* Removes default margins */
     height: 100vh; /* Ensures full viewport height */
 }
+/* Custom Fonts Here */
 @font-face {
     font-family: 'Boogie Sniggles'; /* Loads custom font */
     src: url('fonts/BoogieSniggles-Regular.woff') format('woff');
@@ -17,6 +18,7 @@ body {
     font-weight: normal;
     font-style: normal;
 }
+/* Establishing fonts for tags */
 h1, h2, h3 {
     font-family: 'Boogie Sniggles';
 }
