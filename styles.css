@@ -1,17 +1,17 @@
 body {
-    background-color: #2b2d31 !important; /* Sets the background color to black */
+    background-color: #2b2d31 !important; /* Sets the background color to hex color */
     color: white !important; /* Optional: Change text color to white for readability */
     margin: 0 !important; /* Removes default margins */
     height: 100vh; /* Ensures full viewport height */
 }
 @font-face {
-    font-family: 'Boogie Sniggles'; /* Custom name for your font */
-    src: url('fonts/BoogieSniggles-Regular.woff') format('woff'), /* Preferred format */
+    font-family: 'Boogie Sniggles'; /* Loads custom font */
+    src: url('fonts/BoogieSniggles-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 h1, h2, h3 {
-    font-family: 'Boogie Sniggles'; /* Use the custom font with a fallback */
+    font-family: 'Boogie Sniggles';
 }
 p {
     font-family: helvetica-neue;
