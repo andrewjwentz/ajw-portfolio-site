@@ -1,6 +1,6 @@
 body {
-    background-color: black; /* Sets the background color to black */
-    color: white; /* Optional: Change text color to white for readability */
-    margin: 0; /* Removes default margins */
+    background-color: black !important; /* Sets the background color to black */
+    color: white !important; /* Optional: Change text color to white for readability */
+    margin: 0 !important; /* Removes default margins */
     height: 100vh; /* Ensures full viewport height */
 }
