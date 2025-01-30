@@ -11,6 +11,6 @@ body {
     font-weight: normal;
     font-style: normal;
 }
-h1, h2, h3 {
+h1, h2, h3, p {
     font-family: 'Tw-Cen-MT-Condensed-Font', sans-serif; /* Use the custom font with a fallback */
 }
