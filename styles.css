@@ -5,9 +5,8 @@ body {
     height: 100vh; /* Ensures full viewport height */
 }
 @font-face {
-    font-family: 'BoogieSniggles-Regular.ttf'; /* Custom name for your font */
-    src: url('fonts/BoogieSniggles-Regular.ttf') format('ttf'), /* Preferred format */
-         url('fonts/BoogieSniggles-Regular.ttf') format('ttf'); /* Fallback format */
+    font-family: 'BoogieSniggles-Regular'; /* Custom name for your font */
+    src: url('fonts/BoogieSniggles-Regular.ttf') format('truetype'), /* Preferred format */
     font-weight: normal;
     font-style: normal;
 }
