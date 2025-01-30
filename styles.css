@@ -10,9 +10,16 @@ body {
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'Helvetica Neue Medium';
+    src: url('fonts/HelveticaNeue-Medium.woff') format('woff'),
+         url('fonts/HelveticaNeue.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 h1, h2, h3 {
     font-family: 'Boogie Sniggles';
 }
 p {
-    font-family: helvetica-neue;
+    font-family: Helvetica Neue Medium;
 }
