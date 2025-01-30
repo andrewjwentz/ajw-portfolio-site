@@ -4,3 +4,13 @@ body {
     margin: 0 !important; /* Removes default margins */
     height: 100vh; /* Ensures full viewport height */
 }
+@font-face {
+    font-family: 'Tw-Cen-MT-Condensed-Font'; /* Custom name for your font */
+    src: url('fonts/Tw-Cen-MT-Condensed-Font.ttf') format('ttf'), /* Preferred format */
+         url('fonts/Tw-Cen-MT-Condensed-Font.ttf') format('ttf'); /* Fallback format */
+    font-weight: normal;
+    font-style: normal;
+}
+h1, h2, h3 {
+    font-family: 'Tw-Cen-MT-Condensed-Font', sans-serif; /* Use the custom font with a fallback */
+}
