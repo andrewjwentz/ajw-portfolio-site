@@ -30,10 +30,13 @@ p1 {
 .d-flex img:hover {
   transform: scale(1.1);
 }
-/* Changing the navbar bg and text colors */
+/* Changing the navbar bg and text font/colors */
 .navbar {
   background-color: #0d1117 !important; /* Custom hex color */
 }
 .navbar .nav-link {
   color: white !important; /* Makes text white */
+    font-family: 'Boogie Sniggles';
+  font-size: 16px; /* Optional: Adjust text size */
+  font-weight: 600; /* Optional: Adjust weight */
 }
