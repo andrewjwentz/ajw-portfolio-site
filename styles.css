@@ -39,6 +39,7 @@ p1 {
 }
 .navbar .nav-link {
   color: white !important; /* Makes icons and text white */
+    padding: 15px 20px; /* Adjust vertical and horizontal spacing */
 }
 .navbar-nav .nav-link {
   font-family: 'Boogie Sniggles'; /* Font for text */
