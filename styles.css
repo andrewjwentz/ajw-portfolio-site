@@ -33,12 +33,15 @@ p1 {
 /* Changing the navbar bg and text font/colors */
 .navbar {
   background-color: #0d1117 !important; /* Custom hex color */
+    min-height: 80px; /* Establishes height of navbar */
+  padding-top: 10px; /* Adjust spacing above text */
+  padding-bottom: 10px; /* Adjust spacing below text */
 }
 .navbar .nav-link {
-  color: white !important; /* Makes text white */
+  color: white !important; /* Makes icons and text white */
 }
 .navbar-nav .nav-link {
-  font-family: 'Boogie Sniggles';
-  font-size: 16px; /* Optional: Adjust text size */
-  font-weight: 600; /* Optional: Adjust weight */
+  font-family: 'Boogie Sniggles'; /* Font for text */
+  font-size: 16px; /* Adjust text size */
+  font-weight: 600; /* Adjust text weight */
 }
