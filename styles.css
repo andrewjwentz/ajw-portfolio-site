@@ -36,7 +36,9 @@ p1 {
 }
 .navbar .nav-link {
   color: white !important; /* Makes text white */
-    font-family: 'Boogie Sniggles';
+}
+.navbar-nav .nav-link {
+  font-family: 'Boogie Sniggles';
   font-size: 16px; /* Optional: Adjust text size */
   font-weight: 600; /* Optional: Adjust weight */
 }
