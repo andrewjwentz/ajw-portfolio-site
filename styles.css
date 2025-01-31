@@ -52,3 +52,12 @@ p1 {
     min-height: 60px;
   }
 }
+/* Adjusting width and height of navbar .webp animation */
+.navbar-nav img {
+  width: 50px;  /* Adjust size as needed */
+  height: auto; /* Maintain aspect ratio */
+}
+/* Aligns .webp in vertical middle of navbar */
+.navbar-nav .nav-item img {
+  vertical-align: middle;
+}
