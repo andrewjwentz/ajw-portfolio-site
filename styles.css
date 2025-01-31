@@ -26,3 +26,7 @@ h1, h2, h3 {
 p1 {
     font-family: 'Helvetica Neue Medium';
 }
+/* Adding a slight zoom effect when hovering over social icons in navbar */
+.d-flex img:hover {
+  transform: scale(1.1);
+}
