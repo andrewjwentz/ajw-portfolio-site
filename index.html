@@ -3,73 +3,70 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Andrew J. Wentz</title>
   
-  <!-- Link Bootstrap CSS first -->
+  <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-  <!-- Link to external CSS file -->
+  <!-- Custom CSS -->
   <link rel="stylesheet" href="styles.css">
-  <!-- Favicon reference -->
-  <link rel="icon" href="favicon.png" type="image/x-icon">
-  
 </head>
 <body>
-  <!-- Navbar -->
-<nav class="navbar navbar-expand-lg bg-light fixed-top"> <!-- Creates a responsive, fixed navbar -->
-  <div class="container"> <!-- Ensures the navbar stays centered -->
-    
-    <!-- Navbar Toggler (for mobile) -->
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg bg-light fixed-top">
+  <div class="container">
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
       <span class="navbar-toggler-icon"></span>
     </button>
-
-    <!-- Navbar Content -->
     <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
       <ul class="navbar-nav">
-  <li class="nav-item">
-    <a class="nav-link" href="index.html">
-      <img src="https://raw.githubusercontent.com/andrewjwentz/ajw-portfolio-site/refs/heads/main/images/Andrew%20Wentz%20Banner%20Animation.webp" 
-           alt="Home" width="40" height="40">
-    </a>
-  </li>
-  <li class="nav-item"><a class="nav-link" href="index.html">Portfolio</a></li>
-  <li class="nav-item"><a class="nav-link" href="case-studies.html">Case Studies</a></li>
-  <li class="nav-item"><a class="nav-link" href="about-me.html">About Me</a></li>
-</ul>
-
-      <!-- Social Media Icons (Right-Aligned) -->
-<div class="d-flex ms-3">
-  <a href="https://x.com/AndrewJWentz" class="me-2">
-    <img src="https://raw.githubusercontent.com/andrewjwentz/ajw-portfolio-site/refs/heads/main/images/icons/X%20logo.png" alt="Twitter" width="30">
-  </a>
-  <a href="https://www.instagram.com/andrewjwentz/" class="me-2">
-    <img src="https://raw.githubusercontent.com/andrewjwentz/ajw-portfolio-site/refs/heads/main/images/icons/instagram%20logo.webp" alt="Instagram" width="30">
-  </a>
-  <a href="https://www.linkedin.com/in/andrewjwentz/" class="me-2">
-    <img src="https://raw.githubusercontent.com/andrewjwentz/ajw-portfolio-site/refs/heads/main/images/icons/linkedin%20logo.webp" alt="LinkedIn" width="30">
-  </a>
-  <a href="https://www.youtube.com/@andrewwentz">
-    <img src="https://raw.githubusercontent.com/andrewjwentz/ajw-portfolio-site/refs/heads/main/images/icons/youtube%20logo.webp" alt="YouTube" width="30">
-  </a>
-</div>
+        <li class="nav-item"><a class="nav-link" href="index.html">Portfolio</a></li>
+        <li class="nav-item"><a class="nav-link" href="case-studies.html">Case Studies</a></li>
+        <li class="nav-item"><a class="nav-link" href="about-me.html">About Me</a></li>
+      </ul>
     </div>
   </div>
 </nav>
 
-  <!-- Website Header -->
-  <header>
-    <h1>Welcome to My Portfolio</h1>
-  </header>
+<!-- Main Content -->
+<div class="container mt-5 pt-5 text-center">
+  <video id="mainVideo" class="video-player" controls poster="thumbnails/main-thumb.jpg">
+    <source id="mainVideoSource" src="" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <h2 id="videoTitle">Select a Video</h2>
+  <p id="videoDescription">Click a thumbnail below to choose a video.</p>
 
-  <!-- Main Content Section -->
-  <main>
-    <p1>This is a simple website to showcase my work.</p1>
-  </main>
+  <!-- Video Grid -->
+  <div class="row mt-4">
+    <div class="col-md-4">
+      <img src="thumbnails/thumb1.jpg" class="video-thumbnail" data-video="videos/video1.mp4" data-title="Video Title 1" data-description="This is a description of the first video." alt="Video 1">
+    </div>
+    <div class="col-md-4">
+      <img src="thumbnails/thumb2.jpg" class="video-thumbnail" data-video="videos/video2.mp4" data-title="Video Title 2" data-description="This is a description of the second video." alt="Video 2">
+    </div>
+    <div class="col-md-4">
+      <img src="thumbnails/thumb3.jpg" class="video-thumbnail" data-video="videos/video3.mp4" data-title="Video Title 3" data-description="This is a description of the third video." alt="Video 3">
+    </div>
+  </div>
+</div>
 
-  <!-- Footer -->
-  <footer>
-    <p1>&copy; 2025 Andrew Wentz</p1>
-  </footer>
+<!-- JavaScript -->
+<script>
+  document.querySelectorAll('.video-thumbnail').forEach(thumbnail => {
+    thumbnail.addEventListener('click', function() {
+      let mainVideo = document.getElementById('mainVideo');
+      let mainVideoSource = document.getElementById('mainVideoSource');
+      
+      mainVideoSource.src = this.dataset.video;
+      mainVideo.load(); // Ensure the new video is properly loaded
+      mainVideo.play(); // Autoplay when a thumbnail is clicked
+      
+      document.getElementById('videoTitle').innerText = this.dataset.title;
+      document.getElementById('videoDescription').innerText = this.dataset.description;
+    });
+  });
+</script>
+
 </body>
 </html>
