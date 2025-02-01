@@ -84,13 +84,21 @@ p1 {
   transform: scale(1.1);
 }
 /* creating flexbox for thumbnail grid */
+/* Thumbnail Grid Fix */
 .thumbnail-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 5px; /* Adjust spacing between thumbnails */
+  gap: 15px; /* Increase space between thumbnails */
+  max-width: 800px; /* Optional: Restrict width for better layout */
+  margin: 0 auto; /* Center the container */
 }
+
+/* Adjust thumbnail size */
 .video-thumbnail {
-  width: 70%; /* Adjust as needed */
+  width: 30%; /* Ensures they fit in a row */
+  max-width: 200px; /* Optional: Prevent them from getting too big */
+  height: auto;
 }
+
 
