@@ -55,17 +55,16 @@
 <script>
   document.querySelectorAll('.video-thumbnail').forEach(thumbnail => {
     thumbnail.addEventListener('click', function() {
-      let mainVideo = document.getElementById('mainVideo');
-      let mainVideoSource = document.getElementById('mainVideoSource');
-      
-      mainVideoSource.src = this.dataset.video;
-      mainVideo.load(); // Ensure the new video is properly loaded
-      mainVideo.play(); // Autoplay when a thumbnail is clicked
-      
-      document.getElementById('videoTitle').innerText = this.dataset.title;
-      document.getElementById('videoDescription').innerText = this.dataset.description;
+        let mainVideo = document.getElementById('mainVideo');
+        
+        mainVideo.src = this.dataset.video; // Update the video source
+        mainVideo.load(); // Reload video to apply new source
+        mainVideo.play(); // Play the video automatically
+        
+        document.getElementById('videoTitle').innerText = this.dataset.title;
+        document.getElementById('videoDescription').innerText = this.dataset.description;
     });
-  });
+});
 </script>
 
 </body>
