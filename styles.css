@@ -19,9 +19,16 @@ body {
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'Tw Cen MT Condensed';
+    src: url('fonts/Tw-Cen-MT-Condensed-Font.woff') format('woff'),
+        url('fonts/Tw-Cen-MT-Condensed-Font.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 /* Establishing fonts for tags */
 h1, h2, h3 {
-    font-family: 'Boogie Sniggles';
+    font-family: 'Tw Cen MT Condensed';
 }
 p1 {
     font-family: 'Helvetica Neue Medium';
