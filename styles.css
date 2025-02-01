@@ -95,7 +95,7 @@ p1 {
 /* Adjust thumbnail size */
 .video-thumbnail {
   width: 50%; /* Ensures they fit in a row */
-  max-width: 200px; /* Optional: Prevent them from getting too big */
+  /*max-width: 200px; /* Optional: Prevent them from getting too big */
   height: auto;
 }
 
