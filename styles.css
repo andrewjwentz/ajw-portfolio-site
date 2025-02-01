@@ -76,3 +76,7 @@ p1 {
 .video-thumbnail:hover {
   transform: scale(1.1);
 }
+.row {
+  --bs-gutter-x: 5px; /* Reduces horizontal spacing between columns */
+  --bs-gutter-y: 5px; /* Reduces vertical spacing between rows */
+}
