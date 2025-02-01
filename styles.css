@@ -83,7 +83,14 @@ p1 {
 .video-thumbnail:hover {
   transform: scale(1.1);
 }
-.row {
-  --bs-gutter-x: 2px; /* Reduces horizontal spacing between columns */
-  --bs-gutter-y: 2px; /* Reduces vertical spacing between rows */
+/* creating flexbox for thumbnail grid */
+.thumbnail-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5px; /* Adjust spacing between thumbnails */
 }
+.video-thumbnail {
+  width: 70%; /* Adjust as needed */
+}
+
