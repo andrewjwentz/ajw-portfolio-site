@@ -77,6 +77,6 @@ p1 {
   transform: scale(1.1);
 }
 .row {
-  --bs-gutter-x: 5px; /* Reduces horizontal spacing between columns */
-  --bs-gutter-y: 5px; /* Reduces vertical spacing between rows */
+  --bs-gutter-x: 2px; /* Reduces horizontal spacing between columns */
+  --bs-gutter-y: 2px; /* Reduces vertical spacing between rows */
 }
