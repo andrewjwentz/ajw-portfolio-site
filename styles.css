@@ -32,8 +32,8 @@ h1, h2, h3 {
     font-size: 40px;
 }
 p1 {
-    font-family: 'Helvetica Neue Medium';
-    font-size: 20px;
+    font-family: 'Lato';
+    font-size: 30px;
 }
 /* Adding a slight zoom effect when hovering over social icons in navbar */
 .d-flex img:hover {
