@@ -88,14 +88,13 @@ p1 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 30px; /* Increase space between thumbnails */
-  max-width: 1000px; /* Optional: Restrict width for better layout */
+  gap: 60px; /* Increase space between thumbnails */
+  max-width: 1000px; /* Restricts width of overall flexbox for better layout */
   margin: 0 auto; /* Center the container */
 }
 /* Adjust thumbnail size */
 .video-thumbnail {
   width: 30%; /* Ensures they fit in a row */
-  /*max-width: 200px; /* Optional: Prevent them from getting too big */
   height: auto;
 }
 
