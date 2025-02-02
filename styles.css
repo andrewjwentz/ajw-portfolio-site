@@ -88,7 +88,7 @@ p1 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 60px; /* Increase space between thumbnails */
+  gap: 45px; /* Increase space between thumbnails */
   max-width: 1000px; /* Restricts width of overall flexbox for better layout */
   margin: 0 auto; /* Center the container */
 }
