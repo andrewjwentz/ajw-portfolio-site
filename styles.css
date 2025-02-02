@@ -50,7 +50,7 @@ p1 {
 }
 .navbar-nav .nav-link {
   font-family: 'Tw Cen MT Condensed'; /* Font for text */
-  font-size: 30px; /* Adjust text size */
+  font-size: 40px; /* Adjust text size */
 }
 /* Adjusts the navbar height for mobile screens */
 @media (max-width: 768px) {
