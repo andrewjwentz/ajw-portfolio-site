@@ -50,8 +50,7 @@ p1 {
 }
 .navbar-nav .nav-link {
   font-family: 'Tw Cen MT Condensed'; /* Font for text */
-  font-size: 16px; /* Adjust text size */
-  /*font-weight: 600; /* Adjust text weight */
+  font-size: 30px; /* Adjust text size */
 }
 /* Adjusts the navbar height for mobile screens */
 @media (max-width: 768px) {
@@ -76,14 +75,15 @@ p1 {
   margin-bottom: 20px;
 }
 .video-thumbnail {
-  width: 70%;
+  width: 30%; /* Adjust thumbnail size */
+    height: auto;
   cursor: pointer;
   transition: transform 0.3s ease-in-out;
 }
 .video-thumbnail:hover {
   transform: scale(1.1);
 }
-/* creating flexbox for thumbnail grid */
+/* Creating flexbox for thumbnail grid */
 .thumbnail-container {
   display: flex;
   flex-wrap: wrap;
@@ -92,10 +92,3 @@ p1 {
   max-width: 1000px; /* Restricts width of overall flexbox for better layout */
   margin: 0 auto; /* Center the container */
 }
-/* Adjust thumbnail size */
-.video-thumbnail {
-  width: 30%; /* Ensures they fit in a row */
-  height: auto;
-}
-
-
