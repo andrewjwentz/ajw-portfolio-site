@@ -29,6 +29,7 @@ body {
 /* Establishing fonts for tags */
 h1, h2, h3 {
     font-family: 'Tw Cen MT Condensed';
+    font-size: 35px;
 }
 p1 {
     font-family: 'Helvetica Neue Medium';
