@@ -94,3 +94,10 @@ p1 {
   max-width: 1000px; /* Restricts width of overall flexbox for better layout */
   margin: 0 auto; /* Center the container */
 }
+/* Creating margin spacing around footer */
+footer {
+  margin-top: 50px; /* Space between the footer and the thumbnails */
+  margin-bottom: 30px; /* Space at the bottom of the page */
+  font-size: 14px;
+  color: #777;
+}
