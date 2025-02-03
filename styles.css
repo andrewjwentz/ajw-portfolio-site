@@ -59,9 +59,7 @@ p1 {
 .navbar-nav .nav-link {
   font-family: 'Tw Cen MT Condensed'; /* Font for text */
   font-size: 40px; /* Adjust text size */
-}
-.navbar .nav-link {
-  color: white !important; /* Makes icons and text white */
+    color: white !important; /* Makes icons and text white */
     padding: 15px 50px; /* Adjust vertical and horizontal spacing */
 }
 
