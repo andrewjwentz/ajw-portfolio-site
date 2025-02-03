@@ -104,6 +104,16 @@ p1 {
   max-width: 1000px; /* Restricts width of overall flexbox for better layout */
   margin: 0 auto; /* Center the container */
 }
+/* Styling the video player description text */
+#videoDescription {
+    font-family: 'Lato';
+    font-size: 20px;
+    color: white;
+    max-width: 600px; /* Adjust width as needed */
+    margin: 0 auto; /* Centers the text */
+    text-align: center; /* Ensures text is centered */
+}
+
 /* Creating margin spacing around footer */
 footer {
   margin-top: 50px; /* Space between the footer and the thumbnails */
