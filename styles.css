@@ -62,7 +62,7 @@ p1 {
 }
 .navbar .nav-link {
   color: white !important; /* Makes icons and text white */
-    padding: 15px 200px; /* Adjust vertical and horizontal spacing */
+    padding: 15px 50px; /* Adjust vertical and horizontal spacing */
 }
 
 /* Adjusts the navbar height for mobile screens */
