@@ -35,7 +35,7 @@ p1 {
     font-family: 'Lato';
     font-size: 20px;
     color: white; /* Font color */
-    max-width: 400px; /* Setting max-width of paragraphs on site */
+    max-width: 100px; /* Setting max-width of paragraphs on site */
 }
 /* Adding a slight zoom effect when hovering over social icons in navbar */
 .d-flex img:hover {
@@ -64,7 +64,7 @@ p1 {
 }
 /* Adjusting width and height of navbar .webp animation */
 .navbar-nav img {
-  width: 1000px;  /* Adjust size as needed */
+  width: 100px;  /* Adjust size as needed */
   height: auto; /* Maintain aspect ratio */
 }
 /* Aligns .webp in vertical middle of navbar */
