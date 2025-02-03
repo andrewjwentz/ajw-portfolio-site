@@ -5,6 +5,7 @@ body {
     height: 100vh; /* Ensures full viewport height */
     padding-top: 80px; /* Adjust to match navbar height */
 }
+
 /* Custom Fonts Here */
 @font-face {
     font-family: 'Boogie Sniggles'; /* Loads custom font */
@@ -26,6 +27,7 @@ body {
     font-weight: normal;
     font-style: normal;
 }
+
 /* Establishing fonts for tags */
 h1, h2, h3 {
     font-family: 'Tw Cen MT Condensed';
@@ -37,10 +39,12 @@ p1 {
     color: white; /* Font color */
     max-width: 100px; /* Setting max-width of paragraphs on site */
 }
+
 /* Adding a slight zoom effect when hovering over social icons in navbar */
 .d-flex img:hover {
   transform: scale(1.1);
 }
+
 /* Changing the navbar bg and text font/colors */
 .navbar {
   background-color: #050505 !important; /* Custom hex color */
@@ -48,21 +52,26 @@ p1 {
   padding-top: 10px; /* Adjust spacing above text */
   padding-bottom: 10px; /* Adjust spacing below text */
 }
-.navbar .nav-link {
-  color: white !important; /* Makes icons and text white */
-    padding: 15px 50px; /* Adjust vertical and horizontal spacing */
+.navbar-nav .nav-item {
+  display: flex;
+  align-items: center; /* Ensures text is aligned vertically */
 }
 .navbar-nav .nav-link {
   font-family: 'Tw Cen MT Condensed'; /* Font for text */
   font-size: 40px; /* Adjust text size */
-    vertical-align: middle;
 }
+.navbar .nav-link {
+  color: white !important; /* Makes icons and text white */
+    padding: 15px 50px; /* Adjust vertical and horizontal spacing */
+}
+
 /* Adjusts the navbar height for mobile screens */
 @media (max-width: 768px) {
   .navbar {
     min-height: 60px;
   }
 }
+
 /* Adjusting width and height of navbar .webp animation */
 .navbar-nav img {
   width: 150px;  /* Adjust size as needed */
