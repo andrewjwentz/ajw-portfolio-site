@@ -109,7 +109,7 @@ p1 {
     font-family: 'Lato';
     font-size: 20px;
     color: white;
-    max-width: 800px; /* Adjust width as needed */
+    max-width: 1200px; /* Adjust width as needed */
     margin: 0 auto; /* Centers the text */
     text-align: center; /* Ensures text is centered */
 }
