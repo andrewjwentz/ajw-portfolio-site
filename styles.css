@@ -39,7 +39,10 @@ p1 {
     color: white; /* Font color */
     max-width: 100px; /* Setting max-width of paragraphs on site */
 }
-
+/* Adjusting size of social icons */
+.d-flex img {
+    max-width: 20px;
+}
 /* Adding a slight zoom effect when hovering over social icons in navbar */
 .d-flex img:hover {
   transform: scale(1.1);
