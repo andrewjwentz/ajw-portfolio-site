@@ -8,8 +8,8 @@ body {
 
 /* Custom Fonts Here */
 @font-face {
-    font-family: 'Clockwork Nightmare'; /* Loads custom font */
-    src: url('fonts/ClockworkNightmare.woff') format('woff');
+    font-family: 'Century Gothic'; /* Loads custom font */
+    src: url('fonts/CenturyGothic.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -30,7 +30,7 @@ body {
 
 /* Establishing fonts for tags */
 h1, h2, h3 {
-    font-family: 'Clockwork Nightmare';
+    font-family: 'Century Gothic';
     font-size: 40px;
 }
 p1 {
@@ -70,7 +70,7 @@ pF {
   align-items: center; /* Ensures text is aligned vertically */
 }
 .navbar-nav .nav-link {
-  font-family: 'Clockwork Nightmare'; /* Font for text */
+  font-family: 'Century Gothic'; /* Font for text */
   font-size: 40px; /* Adjust text size */
     color: white !important; /* Makes icons and text white */
     padding: 15px 50px; /* Adjust vertical and horizontal spacing */
@@ -131,7 +131,7 @@ pF {
 /* Creating margin spacing around footer */
 footer {
   margin-top: 40px; /* Space between the footer and the thumbnails */
-  margin-bottom: 20px; /* Space at the bottom of the page */
+  margin-bottom: 25px; /* Space at the bottom of the page */
   font-size: 20px;
   color: #777;
 }
