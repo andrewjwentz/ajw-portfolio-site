@@ -112,6 +112,7 @@ p1 {
     max-width: 800px; /* Adjust width as needed */
     margin: 0 auto; /* Centers the text */
     text-align: center; /* Ensures text is centered */
+    margin-bottom: 20px;
 }
 
 /* Creating margin spacing around footer */
