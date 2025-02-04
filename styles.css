@@ -3,7 +3,7 @@ body {
     color: white !important; /* Optional: Change text color to white for readability */
     margin: 0 !important; /* Removes default margins */
     height: 100vh; /* Ensures full viewport height */
-    padding-top: 50px; /* Adjust to match navbar height */
+    padding-top: 35px; /* Adjust to match navbar height */
 }
 
 /* Custom Fonts Here */
@@ -48,6 +48,7 @@ pF {
 .d-flex img {
     max-width: 20px;
     align-items: center;
+    transition: transform 0.2s ease-in-out;
 }
 /* Adding a slight zoom effect when hovering over social icons in navbar */
 .d-flex img:hover {
@@ -74,7 +75,7 @@ pF {
   font-size: 20px; /* Adjust text size */
     color: white !important; /* Makes icons and text white */
     padding: 0px 50px; /* Adjust vertical and horizontal spacing */
-    transition: transform 0.3s ease-in-out; /* Creates ease in/out when hovering over text */
+    transition: transform 0.2s ease-in-out; /* Creates ease in/out when hovering over text */
 }
 .navbar-nav .nav-link:hover {
     transform: scale(1.1); /* The scale of which the text grows when hovered over */
