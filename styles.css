@@ -39,6 +39,11 @@ p1 {
     color: white; /* Font color */
     max-width: 100px; /* Setting max-width of paragraphs on site */
 }
+pF {
+    font-family: 'Lato';
+    font-size: 10px;
+    color: white; /* Font color */
+}
 /* Adjusting size of social icons */
 .d-flex img {
     max-width: 20px;
