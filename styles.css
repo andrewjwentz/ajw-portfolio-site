@@ -130,8 +130,8 @@ pF {
 
 /* Creating margin spacing around footer */
 footer {
-  margin-top: 40px; /* Space between the footer and the thumbnails */
+  margin-top: 30px; /* Space between the footer and the thumbnails */
   margin-bottom: 25px; /* Space at the bottom of the page */
-  font-size: 20px;
+  font-size: 30px;
   color: #777;
 }
