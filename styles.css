@@ -80,6 +80,10 @@ pF {
 .navbar-nav .nav-link:hover {
     transform: scale(1.1); /* The scale of which the text grows when hovered over */
 }
+/* Ensure the logo does NOT scale */
+.navbar-nav .nav-link img {
+    transition: none; /* Disable scaling animation */
+}
 
 /* Adjusts the navbar height for mobile screens */
 @media (max-width: 768px) {
