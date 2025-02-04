@@ -42,7 +42,7 @@ p1 {
 /* Adjusting size of social icons */
 .d-flex img {
     max-width: 20px;
-    vertical-align: middle;
+    align-items: center;
 }
 /* Adding a slight zoom effect when hovering over social icons in navbar */
 .d-flex img:hover {
@@ -50,7 +50,7 @@ p1 {
 }
 /* Adding gap between each icon */
 .d-flex {
-    gap: 15px;
+    gap: 10px;
 }
 
 /* Changing the navbar bg and text font/colors */
