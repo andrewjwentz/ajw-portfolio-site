@@ -3,7 +3,7 @@ body {
     color: white !important; /* Optional: Change text color to white for readability */
     margin: 0 !important; /* Removes default margins */
     height: 100vh; /* Ensures full viewport height */
-    padding-top: 40px; /* Adjust to match navbar height */
+    padding-top: 50px; /* Adjust to match navbar height */
 }
 
 /* Custom Fonts Here */
@@ -125,8 +125,8 @@ p1 {
 
 /* Creating margin spacing around footer */
 footer {
-  margin-top: 50px; /* Space between the footer and the thumbnails */
-  margin-bottom: 30px; /* Space at the bottom of the page */
+  margin-top: 40px; /* Space between the footer and the thumbnails */
+  margin-bottom: 20px; /* Space at the bottom of the page */
   font-size: 14px;
   color: #777;
 }
