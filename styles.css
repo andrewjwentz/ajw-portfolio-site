@@ -97,6 +97,11 @@ pF {
 .navbar-nav .nav-item img {
   vertical-align: middle;
 }
+
+.navbar-toggler .navbar-toggler-icon {
+    color: white; /* changes mobile navbar button to white */
+}
+
 /* Video player and grid css */
 .video-player {
   width: 100%;
