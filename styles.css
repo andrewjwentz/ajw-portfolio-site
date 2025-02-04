@@ -3,7 +3,7 @@ body {
     color: white !important; /* Optional: Change text color to white for readability */
     margin: 0 !important; /* Removes default margins */
     height: 100vh; /* Ensures full viewport height */
-    padding-top: 80px; /* Adjust to match navbar height */
+    padding-top: 40px; /* Adjust to match navbar height */
 }
 
 /* Custom Fonts Here */
