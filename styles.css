@@ -31,7 +31,7 @@ body {
 /* Establishing fonts for tags */
 h1, h2, h3 {
     font-family: 'Century Gothic';
-    font-size: 40px;
+    font-size: 20px;
 }
 p1 {
     font-family: 'Lato';
@@ -55,7 +55,7 @@ pF {
 }
 /* Adding gap between each icon */
 .d-flex {
-    gap: 10px;
+    gap: 7px;
 }
 
 /* Changing the navbar bg and text font/colors */
@@ -71,7 +71,7 @@ pF {
 }
 .navbar-nav .nav-link {
   font-family: 'Century Gothic'; /* Font for text */
-  font-size: 40px; /* Adjust text size */
+  font-size: 20px; /* Adjust text size */
     color: white !important; /* Makes icons and text white */
     padding: 15px 50px; /* Adjust vertical and horizontal spacing */
 }
