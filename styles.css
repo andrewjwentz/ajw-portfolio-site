@@ -50,7 +50,7 @@ p1 {
 }
 /* Adding gap between each icon */
 .d-flex {
-    gap: 25px;
+    gap: 15px;
 }
 
 /* Changing the navbar bg and text font/colors */
