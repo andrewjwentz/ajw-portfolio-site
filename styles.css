@@ -14,9 +14,9 @@ body {
     font-style: normal;
 }
 @font-face {
-    font-family: 'Helvetica Neue Medium';
-    src: url('fonts/HelveticaNeue-Medium.woff') format('woff'),
-         url('fonts/HelveticaNeue.woff') format('woff');
+    font-family: 'Century Gothic Bold';
+    src: url('fonts/CenturyGothic-Bold.woff') format('woff'),
+         url('fonts/CenturyGothic-Bold.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -30,7 +30,7 @@ body {
 
 /* Establishing fonts for tags */
 h1, h2, h3 {
-    font-family: 'Century Gothic';
+    font-family: 'Century Gothic Bold';
     font-size: 20px;
 }
 p1 {
