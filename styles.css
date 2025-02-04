@@ -8,8 +8,8 @@ body {
 
 /* Custom Fonts Here */
 @font-face {
-    font-family: 'Boogie Sniggles'; /* Loads custom font */
-    src: url('fonts/BoogieSniggles-Regular.woff') format('woff');
+    font-family: 'Clockwork Nightmare'; /* Loads custom font */
+    src: url('fonts/ClockworkNightmare.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -30,7 +30,7 @@ body {
 
 /* Establishing fonts for tags */
 h1, h2, h3 {
-    font-family: 'Tw Cen MT Condensed';
+    font-family: 'Clockwork Nightmare';
     font-size: 40px;
 }
 p1 {
@@ -70,7 +70,7 @@ pF {
   align-items: center; /* Ensures text is aligned vertically */
 }
 .navbar-nav .nav-link {
-  font-family: 'Tw Cen MT Condensed'; /* Font for text */
+  font-family: 'Clockwork Nightmare'; /* Font for text */
   font-size: 40px; /* Adjust text size */
     color: white !important; /* Makes icons and text white */
     padding: 15px 50px; /* Adjust vertical and horizontal spacing */
