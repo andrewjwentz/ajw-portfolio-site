@@ -80,10 +80,20 @@ pF {
 .navbar-nav .nav-link:hover {
     transform: scale(1.1); /* The scale of which the text grows when hovered over */
 }
+/* Add hover scale effect to text and social icons */
+.navbar-nav .nav-link:not(:has(img)) {
+    transition: transform 0.2s ease-in-out;
+}
+
+.navbar-nav .nav-link:not(:has(img)):hover {
+    transform: scale(1.1);
+}
+
 /* Ensure the logo does NOT scale */
 .navbar-nav .nav-link img {
     transition: none; /* Disable scaling animation */
 }
+
 
 /* Adjusts the navbar height for mobile screens */
 @media (max-width: 768px) {
