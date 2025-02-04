@@ -47,6 +47,10 @@ p1 {
 .d-flex img:hover {
   transform: scale(1.1);
 }
+/* Adding gap between each icon */
+.d-flex {
+    gap: 25px;
+}
 
 /* Changing the navbar bg and text font/colors */
 .navbar {
