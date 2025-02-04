@@ -74,9 +74,10 @@ pF {
   font-size: 20px; /* Adjust text size */
     color: white !important; /* Makes icons and text white */
     padding: 0px 50px; /* Adjust vertical and horizontal spacing */
+    transition: transform 0.3s ease-in-out; /* Creates ease in/out when hovering over text */
 }
 .navbar-nav .nav-link:hover {
-    transform: scale(1.1);
+    transform: scale(1.1); /* The scale of which the text grows when hovered over */
 }
 
 /* Adjusts the navbar height for mobile screens */
