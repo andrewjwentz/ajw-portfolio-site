@@ -62,8 +62,8 @@ pF {
 .navbar {
   background-color: #050505 !important; /* Custom hex color */
     min-height: 80px; /* Establishes height of navbar */
-  padding-top: 10px; /* Adjust spacing above text */
-  padding-bottom: 10px; /* Adjust spacing below text */
+  padding-top: 5px; /* Adjust spacing above text */
+  padding-bottom: 5px; /* Adjust spacing below text */
 }
 .navbar-nav .nav-item {
   display: flex;
@@ -73,7 +73,7 @@ pF {
   font-family: 'Century Gothic'; /* Font for text */
   font-size: 20px; /* Adjust text size */
     color: white !important; /* Makes icons and text white */
-    padding: 15px 50px; /* Adjust vertical and horizontal spacing */
+    padding: 0px 50px; /* Adjust vertical and horizontal spacing */
 }
 
 /* Adjusts the navbar height for mobile screens */
