@@ -8,7 +8,7 @@ body {
 /* Adjust for smaller screens */
 @media (max-width: 768px) { 
     body {
-        padding-top: 20px; /* Reduce padding on mobile */
+        padding-top: 15px; /* Reduce padding on mobile */
     }
 }
 
