@@ -88,20 +88,22 @@ pF {
   }
 }
 
-/* Default styles for desktop */
-.navbar .container .navbar-brand img {
-    height: 50px; /* Adjust as needed */
-    width: auto; /* Maintain aspect ratio */
+/* Default logo size (desktop) */
+.home-logo {
+    height: 50px;  /* Adjust as needed */
+    width: auto;    /* Maintain aspect ratio */
     max-width: 100%;
 }
 
-/* Mobile-specific styles */
-@media (max-width: 768px) { 
-    .navbar .container .navbar-brand img {
-        height: 5px; /* Adjust for mobile */
-        width: auto;
-    }
+/* Mobile logo size */
+@media (max-width: 768px) {
+  .navbar .container .navbar-brand img {
+    height: 40px; /* Smaller size for mobile */
+    width: auto;
+    max-width: 80%; /* Adjust if necessary */
+  }
 }
+
 
 /* Swap default mobile navbar svg with a custom one */
 .navbar-toggler-icon {
