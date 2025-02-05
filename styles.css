@@ -89,8 +89,10 @@ pF {
 }
 
 /* Ensuring home logo in navbar */
-.home-logo {
-    height: 40px; /* Adjust as needed */
+.navbar .container .navbar-brand img {
+    height: 50px; /* Adjust as needed */
+    width: auto; /* Maintain aspect ratio */
+    max-width: 100%;
 }
 
 /* Mobile-specific adjustments */
