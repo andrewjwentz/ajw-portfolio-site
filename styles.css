@@ -98,7 +98,8 @@ pF {
 /* Mobile-specific styles */
 @media (max-width: 768px) { 
     .navbar .container .navbar-brand img {
-        height: 40px; /* Adjust for mobile */
+        height: 5px; /* Adjust for mobile */
+        width: auto;
     }
 }
 
