@@ -88,10 +88,18 @@ pF {
   }
 }
 
-/* Ensuring home logo in navbar */
+/* Default styles for desktop */
 .navbar .container .navbar-brand img {
     height: 50px; /* Adjust as needed */
     width: auto; /* Maintain aspect ratio */
+    max-width: 100%;
+}
+
+/* Mobile-specific styles */
+@media (max-width: 768px) { 
+    .navbar .container .navbar-brand img {
+        height: 40px; /* Adjust for mobile */
+    }
 }
 
 /* Swap default mobile navbar svg with a custom one */
