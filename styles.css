@@ -89,12 +89,12 @@ pF {
 }
 
 /* Adjusting width and height of navbar .webp animation */
-.navbar-nav .nav-link img {
+.navbar-nav .container .nav-link img {
   width: 50px;  /* Adjust size as needed */
   height: auto; /* Maintain aspect ratio */
 }
 /* Aligns .webp in vertical middle of navbar */
-.navbar-nav .nav-link img {
+.navbar-nav .container .nav-link img {
   vertical-align: middle;
 }
 /* Swap default mobile navbar svg with a custom one */
