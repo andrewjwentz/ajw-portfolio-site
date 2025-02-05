@@ -111,11 +111,8 @@ pF {
 }
 
 @media (max-width: 768px) { /* Apply only to mobile (Bootstrap's breakpoint for navbar collapse) */
-    .navbar-nav {
-        padding-left: 20px; /* Ensure consistent left padding for the list */
-    }
     .navbar .d-flex {
-        padding-left: 20px; /* Match the same padding for social icons */
+        padding-left: 40px; /* Match the same padding for social icons */
     }
 }
 
