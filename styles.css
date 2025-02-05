@@ -92,7 +92,6 @@ pF {
 .navbar .container .navbar-brand img {
     height: 50px; /* Adjust as needed */
     width: auto; /* Maintain aspect ratio */
-    max-width: 100%;
 }
 
 /* Swap default mobile navbar svg with a custom one */
