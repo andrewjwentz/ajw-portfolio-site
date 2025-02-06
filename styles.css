@@ -35,9 +35,14 @@ body {
 }
 
 /* Establishing fonts for tags */
-h1, h2, h3 {
+h1, h3 {
     font-family: 'Century Gothic Bold';
     font-size: 20px;
+}
+h2 { /* header for Video Producer & Motion Designer */
+    font-family: 'Century Gothic Bold';
+    font-size: 30px;
+    padding-top: 30px;
 }
 p1 {
     font-family: 'Lato';
@@ -139,7 +144,7 @@ pF {
 /* Video thumbnail size on mobile */
 @media (max-width: 768px) {
     .video-thumbnail {
-        width: 70%;
+        width: 50%;
         height: auto;
     }
 }
