@@ -136,6 +136,14 @@ pF {
   cursor: pointer;
   transition: transform 0.3s ease-in-out;
 }
+/* Video thumbnail size on mobile */
+@media (max-width: 768px) {
+    .video-thumbnail {
+        width: 50%;
+        height: auto;
+    }
+}
+/* size that thumbnails grow when hovered over */
 .video-thumbnail:hover {
   transform: scale(1.1);
 }
