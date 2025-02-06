@@ -124,21 +124,10 @@ pF {
 
 /* Mobile Logo Centered and Fixed */
 .mobile-logo {
-  max-width: 150px; /* Adjust size as needed */
   display: block;
   position: absolute;
-  top: 10px; /* Adjust top spacing */
   left: 50%;
-  transform: translateX(-50%);
-  z-index: 1050; /* Ensure it stays above navbar */
 }
-
-/* Prevent Navbar Padding Issues */
-.navbar {
-  position: relative;
-  padding-top: 60px; /* Prevents overlap with logo */
-}
-
 
 /* Video player and grid css */
 .video-player {
