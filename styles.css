@@ -109,11 +109,11 @@ pF {
     max-width: 80%; /* Adjust if necessary */
   }
 }
-
-@media (max-width: 768px) { /* Apply only to mobile (Bootstrap's breakpoint for navbar collapse) */
+/* Padding for mobile social icons so it lines up with text items */
+@media (max-width: 768px) {
     .navbar .d-flex {
         padding-top: 6px;
-        padding-left: 30px; /* Match the same padding for social icons */
+        padding-left: 30px;
     }
 }
 
@@ -121,6 +121,24 @@ pF {
 .navbar-toggler-icon {
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(255,255,255,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
+
+/* Mobile Logo Centered and Fixed */
+.mobile-logo {
+  max-width: 150px; /* Adjust size as needed */
+  display: block;
+  position: absolute;
+  top: 10px; /* Adjust top spacing */
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1050; /* Ensure it stays above navbar */
+}
+
+/* Prevent Navbar Padding Issues */
+.navbar {
+  position: relative;
+  padding-top: 60px; /* Prevents overlap with logo */
+}
+
 
 /* Video player and grid css */
 .video-player {
