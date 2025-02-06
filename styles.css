@@ -145,7 +145,7 @@ pF {
 /* Video thumbnail size on mobile */
 @media (max-width: 768px) {
     .video-thumbnail {
-        width: 30%;
+        width: 40%;
         height: auto;
     }
     .d-flex {
