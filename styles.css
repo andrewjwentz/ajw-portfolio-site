@@ -145,11 +145,11 @@ pF {
 /* Video thumbnail size on mobile */
 @media (max-width: 768px) {
     .video-thumbnail {
-        width: 40%;
+        width: 45%;
         height: auto;
     }
     .d-flex {
-        gap: 5px;
+        gap: 2px;
     }
 }
 /* size that thumbnails grow when hovered over */
