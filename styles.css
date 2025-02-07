@@ -130,6 +130,10 @@ pF {
 }
 
 /* Video player and grid css */
+.container { /* remove top margin from video player via Bootstrap's built-in top margins */
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
 .video-player {
   width: 100%;
   max-width: 800px;
