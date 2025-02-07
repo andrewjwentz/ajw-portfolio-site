@@ -5,12 +5,13 @@ body {
     height: 100vh; /* Ensures full viewport height */
     padding-top: 90px; /* Adjust to match navbar height */
 }
+
 /* Adjust for smaller screens */
 @media (max-width: 768px) { 
     body {
-        padding-top: 200px; /* Reduce padding on mobile */
+        padding-top: 150px; /* Reduce padding on mobile */
     }
-    h3 {
+    h1, h2, h3 {
         font-family: 'Century Gothic';
         font-size: 30px;
         text-align: center;
@@ -42,8 +43,8 @@ body {
 
 /* Establishing fonts for tags */
 h1, h2 {
-    font-family: 'Century Gothic Bold';
-    font-size: 20px;
+    font-family: 'Century Gothic';
+    font-size: 30px;
 }
 h3 { /* header for Video Producer & Motion Designer */
     font-family: 'Century Gothic';
