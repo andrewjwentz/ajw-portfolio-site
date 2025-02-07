@@ -35,11 +35,11 @@ body {
 }
 
 /* Establishing fonts for tags */
-h1, h2, h3 {
+h1, h2 {
     font-family: 'Century Gothic Bold';
     font-size: 20px;
 }
-hM { /* header for Video Producer & Motion Designer */
+h3 { /* header for Video Producer & Motion Designer */
     font-family: 'Century Gothic Bold';
     font-size: 30px;
     text-align: center;
