@@ -8,7 +8,10 @@ body {
 /* Adjust for smaller screens */
 @media (max-width: 768px) { 
     body {
-        padding-top: 5px; /* Reduce padding on mobile */
+        padding-top: 40px; /* Reduce padding on mobile */
+    }
+    h3 {
+        font-size: 20px;
     }
 }
 
@@ -40,7 +43,7 @@ h1, h2 {
     font-size: 20px;
 }
 h3 { /* header for Video Producer & Motion Designer */
-    font-family: 'Century Gothic Bold';
+    font-family: 'Century Gothic';
     font-size: 30px;
     text-align: center;
 }
@@ -50,7 +53,7 @@ p1 {
     color: white; /* Font color */
     max-width: 100px; /* Setting max-width of paragraphs on site */
 }
-pF {
+p2 {
     font-family: 'Lato';
     font-size: 10px;
     color: white; /* Font color */
