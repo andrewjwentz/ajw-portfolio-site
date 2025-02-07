@@ -43,7 +43,7 @@ hM { /* header for Video Producer & Motion Designer */
     font-family: 'Century Gothic Bold';
     font-size: 30px;
     padding-top: 100px;
-    justify-content: center;
+    text-align: center;
 }
 p1 {
     font-family: 'Lato';
