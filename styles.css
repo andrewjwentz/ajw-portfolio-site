@@ -3,7 +3,7 @@ body {
     color: white !important; /* Optional: Change text color to white for readability */
     margin: 0 !important; /* Removes default margins */
     height: 100vh; /* Ensures full viewport height */
-    padding-top: 35px; /* Adjust to match navbar height */
+    padding-top: 100px; /* Adjust to match navbar height */
 }
 /* Adjust for smaller screens */
 @media (max-width: 768px) { 
@@ -42,7 +42,6 @@ h1, h2, h3 {
 hM { /* header for Video Producer & Motion Designer */
     font-family: 'Century Gothic Bold';
     font-size: 30px;
-    padding-top: 100px;
     text-align: center;
 }
 p1 {
