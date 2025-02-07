@@ -9,9 +9,9 @@ body {
 /* Adjust for smaller screens */
 @media (max-width: 768px) { 
     body {
-        padding-top: 100px; /* Reduce padding on mobile */
+        padding-top: 75px; /* Reduce padding on mobile */
     }
-    h1, h2, h3 {
+    h3 {
         font-family: 'Century Gothic';
         font-size: 20px;
         text-align: center;
