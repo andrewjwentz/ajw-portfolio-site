@@ -206,7 +206,7 @@ footer {
 /* ABOUT-ME.HTML CSS -------------------------------------------------------------*/
 
 .about-image {
-  max-width: 100%; /* Ensures the image is responsive */
+  max-width: 80%; /* Ensures the image is responsive */
   height: auto;
   border-radius: 10px; /* Optional: adds rounded corners */
 }
