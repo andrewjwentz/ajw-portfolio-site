@@ -159,9 +159,6 @@ p2 {
         width: 45%;
         height: auto;
     }
-    .d-flex {
-        gap: 2px;
-    }
 }
 /* size that thumbnails grow when hovered over */
 .video-thumbnail:hover {
@@ -175,6 +172,11 @@ p2 {
   gap: 25px; /* Increase space between thumbnails */
   max-width: 1000px; /* Restricts width of overall flexbox for better layout */
   margin: 0 auto; /* Center the container */
+}
+@media (max-width: 768px) { /*Establishing gap between thumbnails on mobile */
+    .thumbnail-container {
+        gap: 15px;
+    }
 }
 /* Styling the video player description text */
 #videoDescription {
