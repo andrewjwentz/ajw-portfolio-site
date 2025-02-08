@@ -121,7 +121,7 @@ p2 {
     width: auto;
     /*position: absolute; removes the logo from the normal document flow */
     left: 30%; /* moves the logo to the middle of the navbar */
-    transform: translateX(-50%); /* shifts it back left by half of its own width, ensuring a perfect center alignment */
+    transform: translateX(-30%); /* shifts it back left by half of its own width, ensuring a perfect center alignment */
   }
 }
 /* Padding for mobile social icons so it lines up with text items */
