@@ -119,7 +119,7 @@ p2 {
   .navbar .container .navbar-brand img {
     height: 40px; /* Smaller size for mobile */
     width: auto;
-    position: absolute; /* removes the logo from the normal document flow */
+    /*position: absolute; removes the logo from the normal document flow */
     left: 50%; /* moves the logo to the middle of the navbar */
     transform: translateX(-50%); /* shifts it back left by half of its own width, ensuring a perfect center alignment */
   }
