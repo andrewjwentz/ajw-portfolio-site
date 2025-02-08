@@ -1,3 +1,5 @@
+/* GLOBAL STYLES -------------------------------------------------------------*/
+
 body {
     background-color: #212121 !important; /* Sets the background color to hex color */
     color: white !important; /* Optional: Change text color to white for readability */
@@ -138,6 +140,16 @@ p2 {
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(255,255,255,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
 
+/* Creating margin spacing around footer */
+footer {
+  margin-top: 30px; /* Space between the footer and the thumbnails */
+  margin-bottom: 25px; /* Space at the bottom of the page */
+  font-size: 30px;
+  color: #777;
+}
+
+/* INDEX.HTML CSS -------------------------------------------------------------*/
+
 /* Video player and grid css */
 .container { /* remove top margin from video player via Bootstrap's built-in top margins */
     margin-top: 0 !important;
@@ -191,10 +203,17 @@ p2 {
     margin-bottom: 20px;
 }
 
-/* Creating margin spacing around footer */
-footer {
-  margin-top: 30px; /* Space between the footer and the thumbnails */
-  margin-bottom: 25px; /* Space at the bottom of the page */
-  font-size: 30px;
-  color: #777;
+/* ABOUT-ME.HTML CSS -------------------------------------------------------------*/
+
+.about-image {
+  max-width: 100%; /* Ensures the image is responsive */
+  height: auto;
+  border-radius: 10px; /* Optional: adds rounded corners */
+}
+
+/* Adds spacing between columns on larger screens */
+@media (min-width: 768px) {
+  .row {
+    column-gap: 50px; /* Adjust as needed */
+  }
 }
