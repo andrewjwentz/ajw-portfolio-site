@@ -54,6 +54,9 @@ h3 { /* header for Video Producer & Motion Designer */
     text-align: center;
     padding-bottom: 8px;
 }
+h4 {
+    font-family: 'Century Gothic';
+    font-size: 30px;
 p1 {
     font-family: 'Lato';
     font-size: 20px;
@@ -217,5 +220,11 @@ footer {
         width: 500px; /* Ensures the image is responsive */
         height: auto;
         border-radius: 10px; /* Optional: adds rounded corners */
+    }
+    h4 {
+        font-family: 'Century Gothic';
+        font-size: 20px !important;
+        text-align: center;
+        padding-bottom: 10px;
     }
 }
