@@ -206,19 +206,16 @@ footer {
 /* ABOUT-ME.HTML CSS -------------------------------------------------------------*/
 
 .about-image {
-  max-width: 80%; /* Ensures the image is responsive */
+  width: 60px; /* Ensures the image is responsive */
   height: auto;
   border-radius: 10px; /* Optional: adds rounded corners */
 }
 
 /* Adds spacing between columns on larger screens */
 @media (min-width: 768px) {
-  .row {
-    column-gap: 50px; /* Adjust as needed */
-  }
-.about-image {
-  max-width: 100%; /* Ensures the image is responsive */
-  height: auto;
-  border-radius: 10px; /* Optional: adds rounded corners */
+    .about-image {
+        width: 100px; /* Ensures the image is responsive */
+        height: auto;
+        border-radius: 10px; /* Optional: adds rounded corners */
     }
 }
