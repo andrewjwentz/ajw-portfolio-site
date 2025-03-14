@@ -211,22 +211,35 @@ footer {
 /* ABOUT-ME.HTML CSS -------------------------------------------------------------*/
 
 .about-image {
-  width: 150px; /* Ensures the image is responsive */
+  width: 150px; /* Default small width */
   height: auto;
-  border-radius: 10px; /* Optional: adds rounded corners */
+  border-radius: 10px;
+  display: block; /* Ensures it behaves as a block element */
+  margin: 0 auto; /* Centers image on mobile */
 }
 
-/* Adds spacing between columns on larger screens */
+/* Center content on larger screens */
 @media (min-width: 768px) {
-    .about-image {
-        width: 1200px; /* Ensures the image is responsive */
-        height: auto;
-        border-radius: 10px; /* Optional: adds rounded corners */
-    }
-    h4 {
-        font-family: 'Century Gothic';
-        font-size: 20px !important;
-        text-align: center;
-        padding-bottom: 10px;
-    }
+  .row {
+    display: flex;
+    justify-content: center; /* Center-aligns the row */
+    align-items: center; /* Aligns image and text to the middle */
+    text-align: left;
+  }
+
+  .col-md-5 {
+    flex: 0 1 auto; /* Ensures the image and text take up space dynamically */
+  }
+
+  .about-image {
+    width: 250px; /* Adjust width for larger screens */
+  }
+
+  h4 {
+    font-family: 'Century Gothic';
+    font-size: 20px;
+    text-align: left;
+    padding-bottom: 10px;
+  }
 }
+
