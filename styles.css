@@ -212,7 +212,7 @@ footer {
 
 .about-image {
     width: 100%;
-    width: 150px; /* Default small width */
+    max-width: 200px;
   height: auto;
   border-radius: 10px;
   display: block; /* Ensures it behaves as a block element */
@@ -233,7 +233,7 @@ footer {
   }
 
   .about-image {
-    width: 250px; /* Adjust width for larger screens */
+    max-width: 350px; /* Adjust mobile width */
   }
 
   h4 {
