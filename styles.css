@@ -211,7 +211,8 @@ footer {
 /* ABOUT-ME.HTML CSS -------------------------------------------------------------*/
 
 .about-image {
-  width: 150px; /* Default small width */
+    width: 100%;
+    width: 150px; /* Default small width */
   height: auto;
   border-radius: 10px;
   display: block; /* Ensures it behaves as a block element */
