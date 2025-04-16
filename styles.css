@@ -244,14 +244,21 @@ footer {
   }
 }
 
-.logo-row {
-  margin-bottom: 30px;
+/* Logo Cloud */
+.logo-cloud {
+  width: 100%;
 }
 
+/* Each row of logos */
+.logo-row {
+  display: flex;
+  gap: 50px; /* Adjust gap between logos here */
+  margin-bottom: 30px; /* Space between rows */
+  flex-wrap: nowrap;
+}
+
+/* Logo image styles */
 .logo-img {
-  max-height: 50px;
+  max-height: 80px;
   object-fit: contain;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
