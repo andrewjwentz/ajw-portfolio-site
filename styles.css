@@ -252,13 +252,13 @@ footer {
 /* Each row of logos */
 .logo-row {
   display: flex;
-  gap: 50px; /* Adjust gap between logos here */
+  gap: 20px; /* Adjust gap between logos here */
   margin-bottom: 30px; /* Space between rows */
   flex-wrap: nowrap;
 }
 
 /* Logo image styles */
 .logo-img {
-  max-height: 200px;
+  max-height: 400px;
   object-fit: contain;
 }
