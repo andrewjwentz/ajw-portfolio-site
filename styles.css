@@ -261,7 +261,7 @@ footer {
 .logo-img {
   height: auto;
   max-width: 200px; /* You can freely change this value */
-  flex-shrink: 0; /* Prevent flexbox from shrinking logos */
+  /*flex-shrink: 0; /* Prevent flexbox from shrinking logos */
   display: block;
 }
 
