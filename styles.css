@@ -244,10 +244,10 @@ footer {
   }
 }
 
-/* Logo Cloud */
-/*.logo-cloud {
+/* Client Logo Cloud */
+.logo-cloud {
   width: 100%;
-}*/
+}
 
 /* Each row of logos */
 .logo-row {
