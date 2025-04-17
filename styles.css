@@ -260,7 +260,7 @@ footer {
 /* Logo image styles */
 .logo-img {
   height: auto;
-  max-width: 200px; !important /* You can freely change this value */
+  max-width: 200px; /* You can freely change this value */
   flex-shrink: 0; /* Prevent flexbox from shrinking logos */
   display: block;
 }
