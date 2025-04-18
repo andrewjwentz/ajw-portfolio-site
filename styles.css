@@ -253,7 +253,7 @@ footer {
 .logo-row {
   display: flex;
   gap: 20px; /* Adjust gap between logos here */
-  margin-bottom: 30px; /* Space between rows */
+  margin-bottom: 20px; /* Space between rows */
   flex-wrap: nowrap;
 }
 
