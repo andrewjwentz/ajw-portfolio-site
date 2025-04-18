@@ -259,8 +259,10 @@ footer {
 
 /* Logo image styles */
 .logo-img {
-  max-width: 200px; /* You can freely change this value */
+  width: 100%;
+    max-width: 200px; /* You can freely change this value */
   height: auto;
+    object-fit: contain;  /* Ensures full image fits inside bounding box */
     flex-shrink: 0; /* Prevent flexbox from shrinking logos */
   display: block;
 }
