@@ -59,6 +59,11 @@ h4 {
     font-size: 30px;
     text-align: center;
 }
+h5 {
+    font-family: 'Century Gothic';
+    font-size: 20px;
+    text-align: left;
+}
 p1 {
     font-family: 'Lato';
     font-size: 20px;
@@ -278,3 +283,6 @@ footer {
     justify-content: center;
   }
 }
+
+/* CASE-STUDIES.HTML -------------------------------------------------------------*/
+
