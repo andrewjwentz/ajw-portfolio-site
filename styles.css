@@ -292,3 +292,24 @@ footer {
     margin-bottom: 15px; /* Add a bit of bottom margin to the video */
   }
 }
+
+/* GIF row container inside case studies */
+.gif-row {
+  gap: 10px; /* Space between gifs */
+}
+
+/* GIF images */
+.gif-img {
+  width: 30%; /* Adjust size of each gif to fit 3 across with spacing */
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px; /* Optional: make the GIFs have rounded corners */
+}
+
+/* GIF Mobile adjustments */
+@media (max-width: 768px) {
+  .gif-img {
+    width: 45%; /* Make them larger if they stack on mobile */
+    margin-bottom: 10px; /* Add a little bottom spacing when wrapping */
+  }
+}
